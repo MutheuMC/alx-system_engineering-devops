@@ -1,1 +1,1 @@
- Alx shell scripting assignment
+shell redirection
