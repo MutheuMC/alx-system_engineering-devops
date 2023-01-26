@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#Print best school using while and if to print hi in the 9th number
+
+a=1
+b=9
+while ((a<11))
+do 
+	if [ "$a" -eq "$b" ]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	$a=$a+1
+
+done

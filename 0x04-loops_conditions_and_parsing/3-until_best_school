@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# printing using until
+
+a=1
+until ((a=10))
+do
+	echo "Best School"
+	a=`expr $a + 1`
+done
