@@ -4,7 +4,7 @@
 a=1
 b=9
 
-while [ $i -le 10 ]
+while [ $a -le 10 ]
 do 
 	if [ "$a" -eq "$b" ]
 	then
